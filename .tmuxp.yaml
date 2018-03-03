@@ -1,0 +1,18 @@
+session_name: djangogirls2018
+start_directory: ./
+windows:
+  - window_name: Git/BPython
+    layout: main-vertical
+    panes:
+      - shell_command:
+        - make test
+        - make outdated
+        - git init
+        - git status .
+        focus: true
+      - shell_command:
+        - make shell
+  - window_name: vim
+    panes:
+      - shell_command:
+        - vim .
