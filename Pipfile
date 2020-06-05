@@ -16,7 +16,7 @@ jupyter = "*"
 
 [packages]
 
-django = "~=1.11.0"
+django = "~=1.11.29"
 
 
 [requires]
